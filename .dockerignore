@@ -1,0 +1,236 @@
+# Node.js
+node_modules
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.npm
+.yarn-integrity
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage
+*.lcov
+
+# nyc test coverage
+.nyc_output
+
+# Grunt intermediate storage
+.grunt
+
+# Bower dependency directory
+bower_components
+
+# node-waf configuration
+.lock-wscript
+
+# Compiled binary addons
+build/Release
+
+# Dependency directories
+jspm_packages/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Microbundle cache
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# dotenv environment variables file
+.env
+.env.test
+.env.production
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# parcel-bundler cache
+.cache
+.parcel-cache
+
+# Next.js build output
+.next
+
+# Nuxt.js build / generate output
+.nuxt
+dist
+
+# Gatsby files
+.cache/
+public
+
+# Storybook build outputs
+.out
+.storybook-out
+
+# Temporary folders
+tmp/
+temp/
+
+# Runtime data
+*.log
+logs/
+*.sqlite
+*.db
+bot_data.db*
+
+# Media files
+media/
+qr_codes/
+temp/
+backups/
+
+# Git
+.git
+.gitignore
+.gitattributes
+
+# Docker
+Dockerfile*
+docker-compose*
+.dockerignore
+
+# Documentation
+*.md
+README*
+CHANGELOG*
+LICENSE*
+docs/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Scripts (keep only essential ones)
+install.sh
+deploy.sh
+start.sh
+monitor.sh
+
+# Test files
+test/
+tests/
+__tests__/
+*.test.js
+*.spec.js
+
+# Build tools
+.babelrc
+.eslintrc*
+.prettierrc*
+jest.config.js
+webpack.config.js
+rollup.config.js
+
+# Package manager files
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Optimization files (these will be copied separately if needed)
+VPS_OPTIMIZATION.md
+README_VPS.md
+
+# Monitoring and logs
+monitoring.log
+error.log
+combined.log
+
+# Temporary WhatsApp session data
+.wwebjs_auth/
+.wwebjs_cache/
+session/
+
+# QR codes (will be generated at runtime)
+*.png
+*.jpg
+*.jpeg
+*.gif
+
+# Backup files
+*.backup
+*.bak
+*.old
+
+# Archive files
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# Development files
+.env.example
+.env.development
+.env.staging
+
+# CI/CD files
+.github/
+.gitlab-ci.yml
+.travis.yml
+Jenkinsfile
+
+# Security files
+*.pem
+*.key
+*.crt
+*.p12
+
+# Large files that shouldn't be in container
+*.mp4
+*.avi
+*.mov
+*.wmv
+*.flv
+*.webm
+*.mkv
+
+# Audio files
+*.mp3
+*.wav
+*.flac
+*.aac
+*.ogg
+*.wma
+
+# Other large binary files
+*.iso
+*.dmg
+*.exe
+*.msi
+*.deb
+*.rpm
